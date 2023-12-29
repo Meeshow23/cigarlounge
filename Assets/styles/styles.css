@@ -1,0 +1,19 @@
+.menuitems {
+    display: inline;
+    list-style: none;
+}
+
+.menu-button {
+    background-color: #884e1b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: progress;
+    width:100%;
+  }
+
