@@ -10,13 +10,9 @@
 }
 
 .card {
-    display: block
-
-}
-#top-card {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
   }
   
 
@@ -24,7 +20,7 @@
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+   width: 100%;
 }
 a {
     color: #abe6e0;
