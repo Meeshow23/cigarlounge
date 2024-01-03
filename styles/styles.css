@@ -1,5 +1,28 @@
+#container {
+    display: grid;
+    background-color: aquamarine!important;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.top-rightcard {
+    justify-content: right;
+    justify-items: right;
+}
+body {
+    margin: 0px;
+
+}
+
+div#wrapper {
+    overflow: visible;
+
+    
+}
 #header-wrapper {
     background-color: brown;
+display: fl;
 }
 
 .grid-container {
@@ -27,3 +50,12 @@ a {
     text-decoration: none;
 }
 
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card {
+    display: -ms-inline-grid;
+}
